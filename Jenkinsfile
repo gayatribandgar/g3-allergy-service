@@ -1,6 +1,6 @@
 pipeline{
      agent any
-     Stages{
+     stages{
      stage('checkout'){
         steps{
         git branch:"main",url:'https://github.com/gayatribandgar/g3-allergy-service.git'
